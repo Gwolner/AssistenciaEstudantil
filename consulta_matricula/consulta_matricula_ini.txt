@@ -1,0 +1,7 @@
+index.php
+SAE
+consulta_matricula
+NAO
+blank
+consulta_matricula
+LigMd5

@@ -1,0 +1,12 @@
+.css_id_aluno_label {text-align:right;vertical-align:middle;font-weight:bold;}
+.css_id_aluno_grid_line {vertical-align: top;text-align: right;}
+.css_nome_aluno_label {text-align:left;vertical-align:middle;font-weight:bold;}
+.css_nome_aluno_grid_line {vertical-align: top;text-align: left;}
+.css_curso_label {text-align:left;vertical-align:middle;font-weight:bold;}
+.css_curso_grid_line {vertical-align: top;text-align: left;}
+.css_turno_label {text-align:left;vertical-align:middle;font-weight:bold;}
+.css_turno_grid_line {vertical-align: top;text-align: left;}
+.css_matricula_label {text-align:left;vertical-align:middle;font-weight:bold;}
+.css_matricula_grid_line {vertical-align: top;text-align: left;}
+.css_cpf_label {text-align:left;vertical-align:middle;font-weight:bold;}
+.css_cpf_grid_line {vertical-align: top;text-align: left;}
