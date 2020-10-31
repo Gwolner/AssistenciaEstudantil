@@ -10,27 +10,32 @@ Os processos de fornecimento de livros didáticos e entrega de fardamento eram r
 
 Para elaborar este sistema foi utilizado o Scriptcase v8.0, ambiente de desenvolvimento focado em PHP. Como ferramentas auxiliares foram utilizados Visual Studio Code para manipulação e análise de arquivos HTML, Javascript e CSS, usados de forma auxiliar ao Scriptcase, além do Mozilla Firefox e Google Chrome para testes de compatibilidade entre navegadores.
 
-## Consumo de API
-
 ## Funcionalidades
 
 O sistema possibilita:
 
-* Cadastrar pacientes (Aluno, Servidor, Terceirizado ou Visitante);
-* Consultar pacientes;
-* Atualizar dados dos pacientes;
-* Cadastrar usuários (Recepcionista, Aux. de Enfermagem., Enfermeira, Aux. de Dentista, Dentista, Médico, Gestor);
-* Consultar dados do usuários;
-* Cadastrar atendimento realizado;
-* Consultar atendimento;
-* Preencher prontuário (Dados do paciente, Triagem, Evolução médica, Conduta médica, Evolução odontológica, Conduta odontológica, Prescrição médica/odontológica, Registro de enfermagem);
-* Preencher odontograma (Status do dente e das faces, Histórico do paciente e  Anotações);
-* Emitir documentos (Atestados, Receituário, Declaração, Ficha de acompanhamento, Licença para tratamento e Licença de acompanhamento familiar);
-* Alterar e-mail e senha dos usuários.
+* Cadastrar alunos;
+* Consultar alunos por CPF ou matrícula;
+* Atualizar dados dos alunos;
+* Cadastrar livros;
+* Consultar livros;
+* Atualizar dados dos livros;
+* Associar alunos aos livros;
+* Gerar relatório de livros emprestados por período;
+* Gerar relatório de livros emprestados por aluno;
+* Gerar relatório de livros emprestados por curso;
+* Associar alunos aos fardamentos
+* Gerar pdf de Acompanhamento Domiciliar;
+* Login de usuário através de LDAP;
+
+## Consumo de API
+
+Os dados dos alunos são preenchidos através do banco de dados do próprio Instituto Federal. Para acessar esses dados foi utilziado uma API interna com requisições Get e Post e resposta em JSON. O uso desta API só foi possível com autorização dos departamentos DADT (Diretoria de Avaliação e Desenvolvimento de Tecnologias) e DGTI (Depart. de Gestão de Tecnologia da Informação), tendo em vista que o sistema desenvolvido era em prol da oferta de melhor qualidade de serviço para aos alunos.
 
 ## Agradecimentos
 
 * Aos estagiários e colegas de equipe: Marcos Antonio Ferrreira da Silva Junior e Eduardo Pinto Feitosa da Silva Filho;
 * Ao supervisor da equipe de Desenvolvimento, Victor Monte;
 * Ao responsável pelo Depart. de Gestão de Tecnologia da Informação, Tárcio Luna;
+* Ao professor e servidor do Diretoria de Avaliação e Desenvolvimento de Tecnologias, Henrique Santos;
 * E a todos os funcionários da Diretoria de Assistência ao Estudante por colaborarem com a equipe de Desenvolvimento.
